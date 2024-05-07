@@ -1,0 +1,24 @@
+@font-face {
+  font-family: PTNarrowR;
+  font-display: swap;
+  font-weight: 400;
+  src: url('/public/fonts/ptsanNarrowRegular.ttf') format('opentype');
+}
+@font-face {
+  font-family: HelvetivaNeueB;
+  font-display: swap;
+  font-weight: 700;
+  src: url('/public/fonts/HelveticaNeueBold.ttf') format('opentype');
+}
+@font-face {
+  font-family: NFSCarbonR;
+  font-display: swap;
+  font-weight: 400;
+  src: url('/public/fonts/NFSCarbone.otf') format('opentype');
+}
+@font-face {
+  font-family: ConsolasR;
+  font-display: swap;
+  font-weight: 400;
+  src: url('/public/fonts/ConsolasRegular.ttf') format('opentype');
+}

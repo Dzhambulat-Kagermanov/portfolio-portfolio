@@ -8,9 +8,9 @@ interface IHashtagsProps extends IClassName {
 
 const HashtagsElem: FC<IHashtagsProps> = ({ data, className }) => {
   return (
-    <ul className={`${classes.group} ${className}`}>
+    <ul className={`${classes.group} ${className || ''}`}>
       {data.map((el) => {
-        return <Item>{el}</Item>
+        return <Item key={el}>{el}</Item>
       })}
     </ul>
   )

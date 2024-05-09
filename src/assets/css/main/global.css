@@ -11,6 +11,7 @@ body {
   font-family: OpenSansR !important;
 }
 .container {
+  width: 100%;
   overflow: hidden;
   max-width: 1920px;
   margin: 0 auto;
@@ -21,7 +22,7 @@ body {
   position: relative;
 }
 .inner {
-  max-width: 1660px;
+  max-width: 1536px;
   margin: 0 auto;
   padding: 0 20px;
   position: relative;

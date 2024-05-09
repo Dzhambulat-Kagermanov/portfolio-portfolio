@@ -1,5 +1,5 @@
 import { ReactElement } from 'react'
 
 export interface IChildren {
-  children?: string | ReactElement
+  children?: string | ReactElement | ReactElement[]
 }

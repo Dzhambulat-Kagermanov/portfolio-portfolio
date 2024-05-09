@@ -8,7 +8,8 @@
   --textOpacityWhite: rgba(255, 255, 255, 0.3);
 }
 body {
-  font-family: OpenSansR !important;
+  background-color: black;
+  color: white;
 }
 .container {
   width: 100%;

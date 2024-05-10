@@ -1,3 +1,4 @@
+import { IClassName } from '@/types/classInterface'
 import { FC } from 'react'
 import classes from './Hashtags.module.scss'
 import Item from './Item/Item'

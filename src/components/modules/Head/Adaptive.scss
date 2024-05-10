@@ -1,0 +1,125 @@
+@media screen and (max-width: 1536px) {
+}
+@media screen and (max-width: 1440px) {
+}
+@media screen and (max-width: 1280px) {
+  .head-block__decoration {
+    width: 300px;
+  }
+  .head-block__title {
+    .head-title__item {
+      font-size: 50px;
+    }
+  }
+  .head-block__content {
+    column-gap: 20px;
+    .head-content__image {
+      width: 350px;
+      max-height: 485px;
+    }
+    .head-content__text {
+      text-shadow: 0 0 20px black;
+    }
+  }
+}
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 900px) {
+  .head-block__decoration {
+    width: 250px;
+  }
+  .head-block__title {
+    .head-title__item {
+      font-size: 40px;
+    }
+  }
+  .head-block__content {
+    .head-content__image {
+      width: calc(50% - 15px);
+      max-height: 420px;
+    }
+    .head-content__text {
+      max-width: calc(50% - 15px);
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .head-block__decoration {
+    width: 200px;
+  }
+  .head-block__title {
+    .head-title__item {
+      font-size: 30px;
+    }
+  }
+  .head-block__content {
+    .head-content__image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -2;
+      max-height: none;
+      height: 100%;
+      width: 60%;
+    }
+    .head-content__text {
+      row-gap: 35px;
+      max-width: 60%;
+      h3 {
+        font-size: 28px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .head-block__title {
+    align-items: center;
+    .head-title__item {
+      font-size: 26px;
+      align-self: auto !important;
+    }
+  }
+  .head-block__content {
+    .head-content__text {
+      max-width: 80%;
+    }
+  }
+}
+@media screen and (max-width: 480px) {
+  .head-block__decoration {
+    width: 150px;
+  }
+  .head-block__title {
+    .head-title__item {
+      font-size: 22px;
+      letter-spacing: 3px;
+    }
+  }
+  .head-block__content {
+    .head-content__text {
+      max-width: none;
+    }
+  }
+}
+@media screen and (max-width: 420px) {
+}
+@media screen and (max-width: 360px) {
+  .head-block__decoration {
+    width: 120px;
+  }
+  .head-block__title {
+    .head-title__item {
+      font-size: 18px;
+      letter-spacing: 2px;
+    }
+  }
+}
+@media screen and (max-width: 320px) {
+  .head-block__content {
+    .head-content__text {
+      h2 {
+        font-size: 35px;
+      }
+    }
+  }
+}

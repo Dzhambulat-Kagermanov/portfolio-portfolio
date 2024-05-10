@@ -7,8 +7,8 @@ import TextContent from './TextContent/TextContent'
 const Content: FC<IClassName> = ({ className }) => {
   return (
     <div className={`${classes.content} ${className || ''}`}>
-      <Image />
-      <TextContent />
+      <Image className='head-content__image' />
+      <TextContent className='head-content__text' />
     </div>
   )
 }

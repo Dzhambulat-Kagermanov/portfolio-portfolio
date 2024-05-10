@@ -38,7 +38,7 @@
 }
 @media screen and (max-width: 480px) {
   .inner {
-    max-width: 360px;
+    max-width: 420px;
   }
 }
 @media screen and (max-width: 420px) {
@@ -65,7 +65,7 @@
 }
 @media screen and (max-width: 1024px) {
 }
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 900px) {
 }
 @media screen and (max-width: 768px) {
 }

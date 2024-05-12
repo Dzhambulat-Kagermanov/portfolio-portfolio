@@ -1,0 +1,17 @@
+.button {
+  padding: 10px 140px;
+  border: 2px solid white;
+  border-radius: 10px;
+  color: white;
+  transition: 0.1s all linear;
+
+  &:hover {
+    border-color: var(--primaryLightGreen);
+    color: var(--primaryLightGreen);
+    box-shadow: 0 0 20px 0px var(--primaryHoverGreen);
+  }
+  &:active {
+    border-color: var(--primaryHoverGreen);
+    color: var(--primaryHoverGreen);
+  }
+}

@@ -1,0 +1,11 @@
+.group {
+  max-width: 800px;
+  display: flex;
+  flex-flow: wrap column;
+  row-gap: 10px;
+  padding: 0 0 0 50px;
+  list-style: disc;
+  li::marker {
+    font-size: 30px;
+  }
+}

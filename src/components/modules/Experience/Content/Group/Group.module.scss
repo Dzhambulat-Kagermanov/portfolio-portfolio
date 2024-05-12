@@ -1,0 +1,13 @@
+.wrapper {
+  display: flex;
+  flex-flow: wrap column;
+  width: calc(50% - 25px);
+}
+.group {
+  flex-grow: 1;
+  list-style: disc;
+  display: flex;
+  flex-flow: wrap column;
+  row-gap: 15px;
+  padding: 0 0 15px 0;
+}

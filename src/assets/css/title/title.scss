@@ -1,0 +1,40 @@
+%titleDefault {
+  letter-spacing: inherit;
+  line-height: inherit;
+  color: inherit;
+  text-shadow: inherit;
+  text-decoration: inherit;
+  text-transform: inherit;
+  font-style: inherit;
+}
+
+.comp-title {
+  font-size: inherit;
+  font-family: inherit;
+  @extend %titleDefault;
+}
+.comp-title-1 {
+  font-size: 40px;
+  font-family: inherit;
+  @extend %titleDefault;
+}
+.comp-title-q-r-1 {
+  font-size: 48px;
+  font-family: PTNarrowR;
+  @extend %titleDefault;
+}
+.comp-title-NFS {
+  font-size: inherit;
+  font-family: NFSCarbonR;
+  @extend %titleDefault;
+}
+.comp-title-NFS-r-1 {
+  font-size: 128px;
+  font-family: NFSCarbonR;
+  @extend %titleDefault;
+}
+.comp-title-NFS-r-2 {
+  font-size: 105px;
+  font-family: NFSCarbonR;
+  @extend %titleDefault;
+}

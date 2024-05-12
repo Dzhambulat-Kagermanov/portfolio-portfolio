@@ -19,9 +19,9 @@ const Group: FC<IGroupProps> = ({
   afterChild,
 }) => {
   return (
-    <div className={classes.wrapper}>
+    <div className={`${classes.wrapper} ${className || ''}`}>
       <Subtitle className={titleClassName}>{title}</Subtitle>
-      <ul className={`${classes.group} ${className || ''}`}>
+      <ul className={classes.group}>
         {data.map(({ id, text }) => {
           return <Item key={id}>{text}</Item>
         })}

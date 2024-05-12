@@ -78,15 +78,15 @@
   .skills-content__group {
     padding: 0 20px 0 45px;
   }
+  .skills-block__decoration {
+    display: none;
+  }
 }
 @media screen and (max-width: 320px) {
   .skills-content__btn {
     a {
       font-size: 22px;
     }
-  }
-  .skills-block__decoration {
-    display: none;
   }
   .skills-content__group {
     row-gap: 3px;

@@ -13,15 +13,15 @@ const Content: FC<IClassName> = ({ className }) => {
     <div className={`${classes.content} ${className || ''}`}>
       <Group
         data={overallExperienceData}
+        className='experience-content__group'
         title='Общий опыт в IT:'
         titleClassName='experience-content-group__title'
-        className='experience-content__group'
       />
       <Group
         data={commerceExperienceData}
+        className='experience-content__group'
         title='Коммерческий опыт:'
         titleClassName='experience-content-group__title'
-        className='experience-content__group'
         afterChild={
           <div className='experience-content-group__btn'>
             <ResumeMainButton>Скачать резюме</ResumeMainButton>

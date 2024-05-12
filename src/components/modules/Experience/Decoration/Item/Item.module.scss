@@ -1,5 +1,5 @@
 .item {
-  width: 920px;
+  width: 61%;
   height: 70px;
   img {
     width: 100%;
@@ -7,6 +7,6 @@
   }
   &:last-child {
     transform: translateX(70px);
-    width: 650px;
+    width: 44%;
   }
 }

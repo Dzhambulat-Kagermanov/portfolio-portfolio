@@ -1,1 +1,1 @@
-export const hashtagsData = ['#FRONTEND', '#LAYOUT', '#WEB']
+export const hashtagsData: string[] = ['#FRONTEND', '#LAYOUT', '#WEB']

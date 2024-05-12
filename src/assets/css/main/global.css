@@ -16,10 +16,7 @@ body {
   max-width: 1920px;
   margin: 0 auto;
   position: relative;
-}
-.wrapper {
-  width: 100%;
-  position: relative;
+  overflow: hidden;
 }
 .inner {
   max-width: 1536px;

@@ -3,9 +3,6 @@
   display: flex;
   flex-flow: wrap column;
   row-gap: 10px;
-  padding: 0 0 0 50px;
+  padding: 0 20px 0 50px;
   list-style: disc;
-  li::marker {
-    font-size: 30px;
-  }
 }

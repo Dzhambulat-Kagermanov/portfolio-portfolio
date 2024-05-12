@@ -13,7 +13,9 @@ const TextContent: FC<IClassName> = ({ className }) => {
         Я фронтенд и немного бэкенд разработчик. Создаю сайты по макетам, на
         React или же на обычном HTML.
       </h3>
-      <ResumeSecondButton>Скачать резюме</ResumeSecondButton>
+      <ResumeSecondButton className='head-content-text__btn'>
+        Скачать резюме
+      </ResumeSecondButton>
     </div>
   )
 }

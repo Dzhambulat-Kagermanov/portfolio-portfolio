@@ -1,0 +1,129 @@
+@media screen and (max-width: 1280px) {
+  .skills-content__title {
+    h2 {
+      font-size: 108px;
+    }
+  }
+}
+@media screen and (max-width: 1024px) {
+  .skills-block {
+    padding-bottom: 40px;
+  }
+  .skills-content__title {
+    h2 {
+      font-size: 88px;
+    }
+  }
+  .skills-block__content {
+    max-width: none;
+    .skills-content__backg {
+      right: 55px;
+      opacity: 0.5;
+      height: 100%;
+      .skills-content-background__item {
+        height: 60%;
+        &:last-child {
+          height: 45%;
+        }
+      }
+    }
+  }
+  .skills-block__decoration {
+    width: calc(100% + 40px);
+    height: 85%;
+    left: -20px;
+  }
+  .skills-content-group__item {
+    text-shadow: 4px 4px 3px black;
+    h2 {
+      font-size: 25px;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .skills-content__title {
+    h2 {
+      font-size: 68px;
+    }
+  }
+  .skills-block__content {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+  }
+  .skills-content__btn {
+    margin: 45px 0 0 0 !important;
+    width: 90%;
+    padding: 10px 50px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .skills-content__title {
+    h2 {
+      font-size: 55px;
+    }
+  }
+  .skills-content-group__item {
+    h2 {
+      font-size: 21px;
+    }
+  }
+  .skills-content__btn {
+    a {
+      font-size: 25px;
+    }
+  }
+}
+@media screen and (max-width: 480px) {
+  .skills-block {
+    padding-bottom: 20px;
+  }
+  .skills-content__title {
+    h2 {
+      font-size: 48px;
+    }
+  }
+  .skills-block__decoration {
+    width: 100%;
+    height: 75%;
+    left: 0px;
+  }
+  .skills-block__content {
+    .skills-content__backg {
+      height: 75%;
+      column-gap: 45px;
+      .skills-content-background__item {
+        width: 70px;
+        &:last-child {
+          width: 50px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 420px) {
+  .skills-content__title {
+    width: 100%;
+    h2 {
+      font-size: calc(100vw / 10.4);
+    }
+  }
+  .skills-content__group {
+    padding: 0 20px 0 45px;
+  }
+}
+@media screen and (max-width: 360px) {
+}
+@media screen and (max-width: 320px) {
+  .skills-content__btn {
+    a {
+      font-size: 22px;
+    }
+  }
+  .skills-block__decoration {
+    display: none;
+  }
+  .skills-content__group {
+    row-gap: 3px;
+  }
+}

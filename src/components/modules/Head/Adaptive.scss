@@ -98,10 +98,13 @@
   .head-block__content {
     .head-content__text {
       max-width: none;
+      .head-content-text__btn {
+        a {
+          font-size: 25px;
+        }
+      }
     }
   }
-}
-@media screen and (max-width: 420px) {
 }
 @media screen and (max-width: 360px) {
   .head-block__decoration {

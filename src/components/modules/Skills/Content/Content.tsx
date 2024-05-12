@@ -10,12 +10,15 @@ import Background from './Background/Background'
 const Content: FC<IClassName> = ({ className }) => {
   return (
     <div className={`${classes.content} ${className || ''}`}>
-      <MainTitle>НАВЫКИ</MainTitle>
-      <Group data={skillsData} />
-      <ResumeMainButton styles={{ margin: '45px 0 0 35px' }}>
+      <MainTitle className='skills-content__title'>НАВЫКИ</MainTitle>
+      <Group className='skills-content__group' data={skillsData} />
+      <ResumeMainButton
+        className='skills-content__btn'
+        styles={{ margin: '45px 0 0 35px' }}
+      >
         Скачать резюме
       </ResumeMainButton>
-      <Background />
+      <Background className='skills-content__backg' />
     </div>
   )
 }

@@ -6,8 +6,8 @@ import Decoration from './Decoration/Decoration'
 const Skills: FC = () => {
   return (
     <BaseStructure containerClass='--parentBlock'>
-      <Content />
-      <Decoration />
+      <Content className='skills-block__content' />
+      <Decoration className='skills-block__decoration' />
     </BaseStructure>
   )
 }

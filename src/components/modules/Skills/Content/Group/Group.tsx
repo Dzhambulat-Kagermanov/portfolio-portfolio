@@ -11,7 +11,11 @@ const Group: FC<IGroupProps> = ({ data, className }) => {
   return (
     <ul className={`${classes.group} ${className || ''}`}>
       {data.map(({ id, text }) => {
-        return <Item key={id}>{text}</Item>
+        return (
+          <Item className='skills-content-group__item' key={id}>
+            {text}
+          </Item>
+        )
       })}
     </ul>
   )

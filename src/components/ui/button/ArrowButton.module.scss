@@ -1,0 +1,13 @@
+.button {
+  padding: 30px;
+  border-radius: 15px;
+  background-color: var(--secondDarkGrey);
+  transition: 0.1s ease;
+  img {
+    width: auto;
+    height: 40px;
+  }
+  &:hover {
+    scale: 1.1;
+  }
+}

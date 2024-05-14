@@ -4,8 +4,9 @@
   --primaryHoverGreen: #03a51d;
   --primaryDarkGrey: #202020;
   --primaryLightGrey: #5c5c5c;
+  --secondDarkGrey: #363636;
   --textWhite: rgb(255, 255, 255);
-  --textOpacityWhite: rgba(255, 255, 255, 0.3);
+  --textOpacityWhite: rgba(255, 255, 255, 0.8);
 }
 body {
   background-color: black;
@@ -28,5 +29,5 @@ body {
   background-color: pink;
 }
 .--parentBlock {
-  margin: 0 0 100px 0;
+  margin: 0 auto 100px auto;
 }

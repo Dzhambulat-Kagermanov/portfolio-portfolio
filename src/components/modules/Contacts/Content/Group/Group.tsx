@@ -13,7 +13,13 @@ const Group: FC<IGroupProps> = ({ className, data }) => {
     <ul className={`${classes.group} ${className || ''}`}>
       {data.map(({ id, messenger, nickname }) => {
         return (
-          <Item key={id} messenger={messenger} nickname={nickname} id={id} />
+          <Item
+            key={id}
+            messenger={messenger}
+            nickname={nickname}
+            id={id}
+            className='contacts-content-group__item'
+          />
         )
       })}
     </ul>

@@ -2,6 +2,8 @@ import BaseStructure from '@/components/elements/BaseStructure/BaseStructure'
 import MainTitle from '@/components/ui/title/MainTitle'
 import { FC } from 'react'
 import Content from './Content/Content'
+import './Contacts.scss'
+import './Adaptive.scss'
 
 const Contacts: FC = () => {
   return (

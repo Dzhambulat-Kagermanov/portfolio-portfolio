@@ -14,6 +14,7 @@ const Content: FC<IContentProps> = ({ className, data }) => {
       {data.map(({ id, title, text }, index) => {
         return (
           <Item
+            className='scheme-content__item'
             key={id}
             title={title}
             text={text}

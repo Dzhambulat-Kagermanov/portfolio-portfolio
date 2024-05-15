@@ -3,6 +3,7 @@ import { FC } from 'react'
 import Content from './Content/Content'
 import { schemeData } from '@/constants/scheme'
 import './Scheme.scss'
+import './Adaptive.scss'
 
 const Scheme: FC = () => {
   return (

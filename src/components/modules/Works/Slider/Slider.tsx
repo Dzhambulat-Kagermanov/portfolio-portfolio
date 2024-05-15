@@ -14,7 +14,20 @@ interface ISliderProps extends IClassName {
 const Slider: FC<ISliderProps> = ({ className, data }) => {
   return (
     <div className={`${classes.slider} ${className || ''}`}>
-      <Swiper loop slidesPerView='auto' spaceBetween={50} centeredSlides>
+      <Swiper
+        loop
+        slidesPerView='auto'
+        spaceBetween={50}
+        centeredSlides
+        breakpoints={{
+          0: {
+            spaceBetween: 20,
+          },
+          1025: {
+            spaceBetween: 50,
+          },
+        }}
+      >
         {data.map(({ id, img }) => {
           return (
             <SwiperSlide

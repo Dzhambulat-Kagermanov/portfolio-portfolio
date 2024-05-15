@@ -13,7 +13,7 @@ const Header: FC<IHeaderProps> = ({ className }) => {
 
   return (
     <div className={`${classes.header} ${className || ''}`}>
-      <SecondTitle>РАБОТЫ</SecondTitle>
+      <SecondTitle className='works-header__title'>РАБОТЫ</SecondTitle>
       <h2
         style={{ fontFamily: 'HelvetivaNeueB' }}
         className='comp-title-1'

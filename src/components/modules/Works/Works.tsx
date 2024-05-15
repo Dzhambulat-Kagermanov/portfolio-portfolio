@@ -4,6 +4,7 @@ import Header from './Header/Header'
 import Slider from './Slider/Slider'
 import { worksData } from '@/constants/works'
 import './Works.scss'
+import './Adaptive.scss'
 
 const Works: FC = () => {
   return (

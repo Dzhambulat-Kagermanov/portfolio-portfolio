@@ -1,7 +1,7 @@
 import { useAppDispatch } from './reduxHooks'
 import { setHintState } from '@/store/hint/hintSlice'
 
-const useHint: () => void = (hintTime?: number) => {
+const useHint: (hintTime?: number) => void = (hintTime) => {
   const dispatch = useAppDispatch()
   dispatch({ type: setHintState.type, payload: { state: true } })
   setTimeout(() => {

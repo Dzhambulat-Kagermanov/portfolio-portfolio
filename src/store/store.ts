@@ -1,9 +1,11 @@
 import { configureStore } from '@reduxjs/toolkit'
 import worksSlice from './works/worksSlice'
+import hintSlice from './hint/hintSlice'
 
 export const store = configureStore({
   reducer: {
     works: worksSlice,
+    hint: hintSlice,
   },
 })
 

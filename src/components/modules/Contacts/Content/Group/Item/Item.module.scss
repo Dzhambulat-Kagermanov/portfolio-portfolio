@@ -1,0 +1,14 @@
+.item {
+}
+.field {
+  background-color: var(--primaryDarkGrey);
+  display: flex;
+  border-radius: 5px;
+  overflow: hidden;
+  h2 {
+    text-align: center;
+    padding: 8px 20px;
+    height: 100%;
+    flex-grow: 1;
+  }
+}

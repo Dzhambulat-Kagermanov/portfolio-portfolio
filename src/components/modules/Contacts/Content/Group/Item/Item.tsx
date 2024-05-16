@@ -5,11 +5,13 @@ import { contactsDataType } from '@/constants/contacts'
 import CopyButton from '@/components/ui/button/CopyButton'
 import { useAppDispatch } from '@/hooks/reduxHooks'
 import { setHintMessage } from '@/store/hint/hintSlice'
-// import useHint from '@/hooks/useHint'
+import useHint from '@/hooks/useHint'
 
 interface IItemProps extends IClassName, contactsDataType {}
 
 const Item: FC<IItemProps> = ({ messenger, nickname, className }) => {
+  const runHint = useHint(500)
+
   const dispatch = useAppDispatch()
   return (
     <li className={`${classes.item} ${className || ''}`}>
@@ -24,7 +26,7 @@ const Item: FC<IItemProps> = ({ messenger, nickname, className }) => {
               type: setHintMessage.type,
               payload: { message: 'Текст успешно скопирован' },
             })
-            // useHint(500)
+            runHint()
             navigator.clipboard.writeText(nickname)
           }}
         />

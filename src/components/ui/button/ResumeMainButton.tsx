@@ -9,13 +9,16 @@ interface IResumeMainButtonProps
   extends IClassName,
     IChildren,
     IOnClick,
-    IStyles {}
+    IStyles {
+  download?: boolean
+}
 
 const ResumeMainButton: FC<IResumeMainButtonProps> = ({
   className,
   children,
   onClick,
   styles,
+  download,
 }) => {
   return (
     <button
@@ -23,9 +26,13 @@ const ResumeMainButton: FC<IResumeMainButtonProps> = ({
       onClick={onClick}
       style={styles}
     >
-      <a className='comp-text-q-r-1' href='@/download/Resume.docx' download>
-        {children}
-      </a>
+      {download ? (
+        <a className='comp-text-q-r-1' href='@/download/Resume.docx' download>
+          {children}
+        </a>
+      ) : (
+        <h2 className='comp-text-q-r-1'>{children}</h2>
+      )}
     </button>
   )
 }

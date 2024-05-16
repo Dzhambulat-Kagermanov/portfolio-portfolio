@@ -8,6 +8,7 @@ import Experience from 'components/modules/Experience/Experience'
 import Works from 'components/modules/Works/Works'
 import Scheme from 'components/modules/Scheme/Scheme'
 import Contacts from 'components/modules/Contacts/Contacts'
+import Footer from './components/modules/Footer/Footer'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Works />
       <Scheme />
       <Contacts />
+      <Footer />
     </Provider>
   )
 }

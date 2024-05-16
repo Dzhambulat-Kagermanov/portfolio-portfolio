@@ -5,6 +5,7 @@ interface IBaseStructureProps extends IDefault {
   containerClass?: string
   innerClass?: string
   containerChild?: string | ReactElement
+  containerOnClick?: React.MouseEventHandler<HTMLButtonElement>
 }
 
 const BaseStructure: FC<IBaseStructureProps> = ({
@@ -13,9 +14,14 @@ const BaseStructure: FC<IBaseStructureProps> = ({
   children,
   containerChild,
   styles,
+  containerOnClick,
 }) => {
   return (
-    <div className={`container ${containerClass || ''}`} style={{ ...styles }}>
+    <div
+      className={`container ${containerClass || ''}`}
+      style={{ ...styles }}
+      onClick={containerOnClick}
+    >
       {containerChild || ''}
       <div className={`inner ${innerClass || ''}`}>{children}</div>
     </div>

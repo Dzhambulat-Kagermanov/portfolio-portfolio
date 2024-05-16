@@ -13,6 +13,7 @@ const Content: FC<IClassName> = ({ className }) => {
       <MainTitle className='skills-content__title'>НАВЫКИ</MainTitle>
       <Group className='skills-content__group' data={skillsData} />
       <ResumeMainButton
+        download
         className='skills-content__btn'
         styles={{ margin: '45px 0 0 35px' }}
       >

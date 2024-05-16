@@ -24,7 +24,7 @@ const Content: FC<IClassName> = ({ className }) => {
         titleClassName='experience-content-group__title'
         afterChild={
           <div className='experience-content-group__btn'>
-            <ResumeMainButton>Скачать резюме</ResumeMainButton>
+            <ResumeMainButton download>Скачать резюме</ResumeMainButton>
           </div>
         }
       />

@@ -9,6 +9,7 @@ import Works from 'components/modules/Works/Works'
 import Scheme from 'components/modules/Scheme/Scheme'
 import Contacts from 'components/modules/Contacts/Contacts'
 import Footer from './components/modules/Footer/Footer'
+import Modal from './components/modules/Modal/Modal'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Scheme />
       <Contacts />
       <Footer />
+      <Modal />
     </Provider>
   )
 }

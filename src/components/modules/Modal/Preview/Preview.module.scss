@@ -1,0 +1,41 @@
+.preview {
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  max-width: 440px;
+  & > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+.header {
+  width: 100%;
+  height: 70px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+  background-color: black;
+}
+.headerText {
+  font-size: 20px;
+  font-family: HelvetivaNeueB;
+  letter-spacing: 3px;
+}
+.favicon {
+  padding: 5px;
+  border-radius: 50%;
+  overflow: hidden;
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+}

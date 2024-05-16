@@ -5,7 +5,7 @@ const worksSlice = createSlice({
   name: 'worksSlice',
   initialState: {
     length: worksData.length,
-    activeSlide: null,
+    activeSlide: -1,
   },
   reducers: {
     setActiveSlide(state, action: PayloadAction<{ id: number }>) {

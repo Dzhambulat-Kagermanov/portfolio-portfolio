@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  position: fixed;
+  top: 50%;
+  left: 200%;
+  translate: -50% -50%;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(7px);
+  & > div {
+    scale: 0;
+  }
+}
+.active {
+  left: 50%;
+  & > div {
+    scale: 1;
+  }
+}
+.inner {
+  width: 100%;
+  transition: 0.3s ease;
+  will-change: scale;
+}
+.modal {
+  padding: 75px;
+  display: flex;
+  column-gap: 50px;
+  justify-content: space-between;
+  height: 860px;
+  border: 3px solid white;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: var(--primaryDarkGrey);
+  width: 100%;
+}

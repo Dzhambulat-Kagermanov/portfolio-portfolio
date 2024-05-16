@@ -3,6 +3,7 @@ import classes from './Item.module.scss'
 import MoreInfoButton from '@/components/ui/button/MoreInfoButton'
 import { useAppDispatch } from '@/hooks/reduxHooks'
 import { setActiveSlide } from '@/store/works/worksSlice'
+import { setModalState } from '@/store/modal/modalSlice'
 
 interface IItemProps {
   id: number
@@ -22,6 +23,10 @@ const Item: FC<IItemProps> = ({ id, img }) => {
           dispatch({
             type: setActiveSlide.type,
             payload: { id: id },
+          })
+          dispatch({
+            type: setModalState.type,
+            payload: { state: true },
           })
         }}
       >

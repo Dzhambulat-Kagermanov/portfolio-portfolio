@@ -1,0 +1,27 @@
+.info {
+  display: flex;
+  flex-flow: wrap column;
+  row-gap: 60px;
+  max-width: 650px;
+}
+.title {
+  font-size: 50px;
+  font-family: HelvetivaNeueB;
+  letter-spacing: 5px;
+  display: flex;
+  flex-flow: wrap column;
+  row-gap: 10px;
+  &::after {
+    content: '';
+    width: 50%;
+    height: 3px;
+    background-color: white;
+  }
+}
+
+.button {
+  h2 {
+    font-size: 35px;
+    letter-spacing: 3px;
+  }
+}

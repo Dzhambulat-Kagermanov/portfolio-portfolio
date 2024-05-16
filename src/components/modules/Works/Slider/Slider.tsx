@@ -4,11 +4,11 @@ import { IClassName } from '@/types/classInterface'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
 import Item from './Item/Item'
-import { IWorksDataType } from '@/constants/works'
+import { worksDataType } from '@/constants/works'
 import classesItem from './Item/Item.module.scss'
 
 interface ISliderProps extends IClassName {
-  data: IWorksDataType[]
+  data: worksDataType[]
 }
 
 const Slider: FC<ISliderProps> = ({ className, data }) => {

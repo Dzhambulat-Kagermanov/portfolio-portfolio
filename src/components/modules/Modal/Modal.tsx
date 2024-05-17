@@ -1,6 +1,7 @@
 import BaseStructure from '@/components/elements/BaseStructure/BaseStructure'
 import { FC, useEffect, useState } from 'react'
 import Info from './Info/Info'
+import CloseButton from '@/components/ui/button/CloseButton'
 import { useAppDispatch, useAppSelector } from '@/hooks/reduxHooks'
 import { worksData, type worksDataType } from '@/constants/works'
 import Preview from './Preview/Preview'
@@ -37,6 +38,15 @@ const Modal: FC = () => {
       <div className={`${classes.modal} modal-block`}>
         <Info className='modal-block__info' data={data} />
         <Preview className='modal-block__preview' data={data} />
+        <CloseButton
+          className={`${classes.close} modal-block__btn`}
+          onClick={() => {
+            dispatch({
+              type: setModalState.type,
+              payload: { state: false },
+            })
+          }}
+        />
       </div>
     </BaseStructure>
   )

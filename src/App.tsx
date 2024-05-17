@@ -10,6 +10,7 @@ import Scheme from 'components/modules/Scheme/Scheme'
 import Contacts from 'components/modules/Contacts/Contacts'
 import Footer from './components/modules/Footer/Footer'
 import Modal from './components/modules/Modal/Modal'
+import Hint from './components/modules/HintModal/Hint'
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Contacts />
       <Footer />
       <Modal />
+      <Hint />
     </Provider>
   )
 }

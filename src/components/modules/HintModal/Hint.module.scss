@@ -1,0 +1,33 @@
+.container {
+  position: fixed;
+  bottom: -100%;
+  left: 0;
+  z-index: 99;
+  transition: 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  overflow: visible;
+}
+.hint {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  background-color: var(--primaryDarkGrey);
+  padding: 20px;
+  box-shadow: 0 0 20px 5px black;
+  border-radius: 5px;
+  h2 {
+    text-align: center;
+  }
+}
+.active {
+  bottom: 50px;
+}
+
+@media screen and (max-width: 360px) {
+  .hint {
+    width: 200px;
+    h2 {
+      font-size: 16px;
+    }
+  }
+}

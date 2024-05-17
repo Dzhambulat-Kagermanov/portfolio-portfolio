@@ -6,6 +6,7 @@ import { worksData, type worksDataType } from '@/constants/works'
 import Preview from './Preview/Preview'
 import classes from './Modal.module.scss'
 import { setModalState } from '@/store/modal/modalSlice'
+import './Adaptive.scss'
 
 const Modal: FC = () => {
   const dispatch = useAppDispatch()
@@ -31,7 +32,7 @@ const Modal: FC = () => {
           dispatch({ type: setModalState.type, payload: { state: false } })
         }
       }}
-      innerClass={`${classes.inner} modal-block`}
+      innerClass={`${classes.inner} modal-block__inner`}
     >
       <div className={`${classes.modal} modal-block`}>
         <Info className='modal-block__info' data={data} />

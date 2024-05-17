@@ -1,0 +1,134 @@
+@media screen and (max-width: 1280px) {
+  .modal-block__info {
+    max-width: calc(60% - 25px);
+    row-gap: 30px;
+    & > h2 {
+      position: relative;
+      line-height: 75px;
+      &::after {
+        width: 65%;
+        height: 4px;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        translate: 0 -50%;
+      }
+    }
+  }
+  .modal-block__preview {
+    width: calc(40% - 25px);
+  }
+}
+@media screen and (max-width: 1024px) {
+  .modal-block__inner {
+    width: 100%;
+    max-width: none;
+    padding: 0;
+    height: 100%;
+  }
+  .modal-block {
+    overflow: auto;
+    row-gap: 50px;
+    justify-content: flex-start;
+    height: 100%;
+    border-radius: 0;
+    border: 0;
+    flex-flow: wrap;
+  }
+  .modal-block__info {
+    width: 100%;
+    max-width: none;
+    & > h2 {
+      font-size: 47px;
+      letter-spacing: 3px;
+    }
+  }
+  .modal-block__preview {
+    width: 100%;
+    border: 5px solid var(--secondDarkGrey);
+    max-height: 400px;
+    max-width: none;
+  }
+}
+@media screen and (max-width: 900px) {
+}
+@media screen and (max-width: 768px) {
+  .modal-block__info {
+    & > h2 {
+      line-height: 60px;
+      &::after {
+        width: 250px;
+        height: 4px;
+        position: static;
+      }
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .modal-block {
+    padding: 40px;
+  }
+  .modal-block__info {
+    & > h2 {
+      font-size: 40px;
+    }
+  }
+  .modal-info-group__item {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .modal-block__info {
+    & > h2 {
+      font-size: 45px;
+      line-height: 75px;
+      &::after {
+        position: absolute;
+      }
+    }
+  }
+  .modal-info__btn {
+    h2 {
+      font-size: 25px;
+    }
+  }
+}
+@media screen and (max-width: 420px) {
+  .modal-info__group {
+    row-gap: 10px;
+    .modal-info-group__item {
+      h2 {
+        font-size: 23px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 360px) {
+  .modal-info__group {
+    .modal-info-group__item {
+      h2 {
+        font-size: 25px;
+        letter-spacing: 1px;
+      }
+    }
+  }
+  .modal-preview__header {
+    column-gap: 15px;
+    h2 {
+      font-size: 18px;
+      letter-spacing: 1px;
+    }
+  }
+}
+@media screen and (max-width: 320px) {
+  .modal-block__info {
+    & > h2 {
+      width: 100%;
+      font-size: calc(100vw / 7);
+      line-height: 75px;
+      &::after {
+        width: 100%;
+      }
+    }
+  }
+}

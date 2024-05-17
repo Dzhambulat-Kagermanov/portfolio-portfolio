@@ -12,7 +12,7 @@ const Preview: FC<IPreviewProps> = ({ data, className }) => {
     <div className={`${classes.preview} ${className || ''}`}>
       {data ? (
         <>
-          <div className={classes.header}>
+          <div className={`${classes.header} modal-preview__header`}>
             <div className={classes.favicon}>
               <img src={data.info.favicon} alt={data.info.name} />
             </div>

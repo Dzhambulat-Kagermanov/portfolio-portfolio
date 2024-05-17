@@ -16,7 +16,7 @@ const ResumeSecondButton: FC<IResumeSecondButtonProps> = ({
       className={`${classes.button} ${className || ''}`}
       onClick={onClick}
     >
-      <a className='comp-text-q-r-1' href='@/download/Resume.pdf' download>
+      <a className='comp-text-q-r-1' href='/download/Resume.pdf' download>
         {children}
       </a>
     </button>

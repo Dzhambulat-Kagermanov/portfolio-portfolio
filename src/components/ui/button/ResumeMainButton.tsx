@@ -27,7 +27,7 @@ const ResumeMainButton: FC<IResumeMainButtonProps> = ({
       style={styles}
     >
       {download ? (
-        <a className='comp-text-q-r-1' href='@/download/Resume.pdf' download>
+        <a className='comp-text-q-r-1' href='/download/Resume.pdf' download>
           {children}
         </a>
       ) : (

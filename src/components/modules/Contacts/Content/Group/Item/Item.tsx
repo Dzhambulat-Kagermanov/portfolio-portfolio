@@ -10,7 +10,7 @@ import useHint from '@/hooks/useHint'
 interface IItemProps extends IClassName, contactsDataType {}
 
 const Item: FC<IItemProps> = ({ messenger, nickname, className }) => {
-  const runHint = useHint(500)
+  const runHint = useHint(2000)
 
   const dispatch = useAppDispatch()
   return (

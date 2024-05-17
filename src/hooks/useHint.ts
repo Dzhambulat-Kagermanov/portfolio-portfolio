@@ -7,7 +7,7 @@ const useHint: (hintTime?: number) => VoidFunction = (hintTime) => {
     dispatch({ type: setHintState.type, payload: { state: true } })
     setTimeout(() => {
       dispatch({ type: setHintState.type, payload: { state: false } })
-    }, hintTime || 300)
+    }, hintTime || 1000)
   }
 }
 

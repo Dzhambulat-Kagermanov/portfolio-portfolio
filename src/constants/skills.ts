@@ -26,15 +26,15 @@ export const skillsData: { id: number; text: string }[] = [
   { id: 10, text: 'Владею препроцессорами SASS\\LESS;' },
   {
     id: 11,
-    text: 'Работал с такими стейт-менеджерами как Redux, Effector, Zustand;',
+    text: 'Работал с такими стейт-менеджерами как Redux, Zustand;',
   },
   {
     id: 12,
-    text: 'Могу создавать веб-приложения с серверным рендерингом на Next.JS;',
+    text: 'Могу создавать веб-приложения с SSR, SSG и ISR рендерингом на Next.JS;',
   },
   {
     id: 13,
-    text: 'Умею пользоваться с такими библиотеками как React Query, RTK Query, Axios, Bootsrap, Swiper, YMap, IMask, StoryBook, Jest, React Testing Library;',
+    text: 'Умею пользоваться с такими библиотеками как React Query, Axios, Bootsrap, Swiper, YMap, IMask, StoryBook, Jest, React Testing Library;',
   },
   {
     id: 14,

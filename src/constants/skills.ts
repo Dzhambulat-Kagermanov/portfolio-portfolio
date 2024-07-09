@@ -15,18 +15,18 @@ export const skillsData: { id: number; text: string }[] = [
   },
   {
     id: 6,
-    text: 'Умею писать несложную серверную часть на Node.Js с использованием Express . JS, Websocket, Socket . IO;',
+    text: 'Умею писать несложную серверную часть на Node.Js с использованием Express . JS;',
   },
   { id: 7, text: 'Умею писать типизированный код на TypeScript;' },
   {
     id: 8,
-    text: 'Умею настраивать сборщик и собирать проекты на Webpack, Rollup;',
+    text: 'Умею настраивать сборщик и собирать проекты на Webpack, Vite;',
   },
   { id: 9, text: 'Умею работать с библиотекой компонентов Material UI;' },
-  { id: 10, text: 'Могу писать код на препроцессорах SASS\\LESS;' },
+  { id: 10, text: 'Владею препроцессорами SASS\\LESS;' },
   {
     id: 11,
-    text: 'Умею работать с такими стейт-менеджерами как Redux, Effector, Zustand;',
+    text: 'Работал с такими стейт-менеджерами как Redux, Effector, Zustand;',
   },
   {
     id: 12,
@@ -34,7 +34,7 @@ export const skillsData: { id: number; text: string }[] = [
   },
   {
     id: 13,
-    text: 'Умею пользоваться с такими библиотеками как React Query, RTK Query, Axios, Bootsrap, Swiper, YMap, IMask, StoryBook;',
+    text: 'Умею пользоваться с такими библиотеками как React Query, RTK Query, Axios, Bootsrap, Swiper, YMap, IMask, StoryBook, Jest, React Testing Library;',
   },
   {
     id: 14,
